@@ -12,3 +12,6 @@
 * A script that checks the health of system and reports in terminal (using ascii art/or any other method [you may use all that is available to you, to make good things look more beautiful]) that is appealing
 
 * There can be endless things, I believe you could've got an idea of what this repo is for. So, I invite you to contribute to this repo, and show off your scripting powers.
+
+## Contributing
+Kindly check the ```CONTRIBUTING.md```
