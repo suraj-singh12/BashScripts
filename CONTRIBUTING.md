@@ -9,7 +9,7 @@
 ```
 2. Create a new directory with meaningful name.
 
-3. Now this directory is your workspace. Add your script in it along with a readme that explains what it does, and how to give it a go.
+3. Now this directory is your workspace. Add your ```bash script``` in it alongwith a ```readme``` that explains what the script does, and how to give it a go.
 
 4. If your script has any special requirement(s), add one more file with the name ```requirements.sh``` and populate it with the requirements.
 
