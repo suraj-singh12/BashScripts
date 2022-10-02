@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Enter filename to remove"
+read fn
+rm -i $fn
+
+#Run the file with bash command
+$ ls
+$ bash delete_file.sh
+$ ls
