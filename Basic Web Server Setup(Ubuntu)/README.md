@@ -1,10 +1,10 @@
 # What will setup.sh do ?
 ## This script file will do the following
-> Install Nginx on your machine
-> Adjust your firewall rules (UFW)
-> Install Git on your machine
-> Install Node on your machine
-> Install Yarn on your machine
+- Install Nginx on your machine
+- Adjust your firewall rules (UFW)
+- Install Git on your machine
+- Install Node on your machine
+- Install Yarn on your machine
 
 # How to download and execute it ?
 
