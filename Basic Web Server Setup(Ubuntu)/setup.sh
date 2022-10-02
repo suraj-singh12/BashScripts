@@ -31,4 +31,4 @@ yarn --version
 
 echo "Setup Done!"
 
-echo"Restart to start with the latest stable release of Node!"
+echo "Restart to start with the latest stable release of Node!"
