@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s "https://v2.jokeapi.dev/joke/Programming?format=txt&type=single" -w "\n"
