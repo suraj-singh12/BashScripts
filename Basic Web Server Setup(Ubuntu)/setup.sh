@@ -13,10 +13,6 @@ sudo apt-get install ufw
 sudo ufw enable -y
 sudo ufw app list
 sudo ufw allow 'Nginx HTTP'
-sudo ufw status
-
-echo "Checking your web server"
-sudo systemctl status nginx
 
 echo "Installing Git!"
 sudo apt install git -y
