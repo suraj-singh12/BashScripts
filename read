@@ -1,0 +1,9 @@
+#!/bin/bash
+file='book.txt'
+while read line; do
+echo $line
+done < $file
+
+$ bash read_file.sh
+
+$ cat book.txt
