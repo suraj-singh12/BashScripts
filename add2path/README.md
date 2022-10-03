@@ -34,3 +34,13 @@ adding current directory [/home/user/BashScripts/ip] to path in ~/.bashrc
 ```
 Using this tool, the ip directroy has been added to $PATH, now we can run ip.sh from anywhere in the terminal and we don't have to use the absolute or relative path to run the ip.sh script.
 
+## Removing added PATHS
+To remove the added paths, edit .bashrc file located in at the home directory .ie ~/.bashrc and delete the lines at the bottom of the file.  
+```
+export PATH="/home/user/BashScripts/add2path:$PATH"
+export PATH="/home/user/BashScripts/ip:$PATH"
+
+```
+
+Removing those two lines from the .bashrc will remove add2path and ip from the $PATH variable.  
+RUN ```source .bashrc``` to update the .bashrc file
