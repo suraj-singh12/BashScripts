@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "[add2path]"
+echo -e "\n"
+echo -e "adding current directory [$(pwd)] to path in ~/.bashrc \n"
+echo "export PATH=\"$(pwd):\$PATH\"" >> ~/.bashrc 
+echo "[FINISHED]"
+exec bash
+
