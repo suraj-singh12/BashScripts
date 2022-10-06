@@ -1,6 +1,6 @@
-## UPDATE-REPO
+## UPDATE-GIT-REPO
 
-Script to automatically update the code from the remote repository
+Script to automatically update the code from the remote repository to the local git repository
 
 ## NOTE
 
