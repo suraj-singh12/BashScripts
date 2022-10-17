@@ -1,5 +1,5 @@
 # node-modules-remover
-Find all the files of a given type in current directory and all subdirectories.
+Remove `node_modules` from current directory and all its subdirectories.
 
 ## How To Use
 1. Clone the repo
@@ -11,9 +11,9 @@ git clone 'https://github.com/suraj-singh12/BashScripts'
 ```bash
 chmod 774 removeNodeModules.sh
 ```
-4. copy the file in the directory where or whose subdirectories have `node_modules`
+4. copy the file in the directory where or whose subdirectories contain `node_modules`
 5. Just run the script
 ```bash
 ./removeNodeModules.sh
 ```
-6. Give consent and all the `node_modules` in the current directory or in the subdirectories, will be removed.
+6. Give consent and all the `node_modules` directories in the current directory or in the subdirectories of current directory, will be removed.
