@@ -1,32 +1,33 @@
 # Bocker
+
 Docker implemented in around 100 lines of bash.
 
-  * [Prerequisites](#prerequisites)
-  * [Example Usage](#example-usage)
-  * [Functionality: Currently Implemented](#functionality-currently-implemented)
-  * [Functionality: Not Yet Implemented](#functionality-not-yet-implemented)
-  * [License](#license)
+-   [Prerequisites](#prerequisites)
+-   [Example Usage](#example-usage)
+-   [Functionality: Currently Implemented](#functionality-currently-implemented)
+-   [Functionality: Not Yet Implemented](#functionality-not-yet-implemented)
+-   [License](#license)
 
 ## Prerequisites
 
 The following packages are needed to run bocker.
 
-* btrfs-progs
-* curl
-* iproute2
-* iptables
-* libcgroup-tools
-* util-linux >= 2.25.2
-* coreutils >= 7.5
+-   btrfs-progs
+-   curl
+-   iproute2
+-   iptables
+-   libcgroup-tools
+-   util-linux >= 2.25.2
+-   coreutils >= 7.5
 
 Because most distributions do not ship a new enough version of util-linux you will probably need to grab the sources from [here](https://www.kernel.org/pub/linux/utils/util-linux/v2.25/) and compile it yourself.
 
-Additionally your system will need to be configured with the following:
+Additionally your system will need to be configured with the following :-
 
-* A btrfs filesystem mounted under `/var/bocker`
-* A network bridge called `bridge0` and an IP of 10.0.0.1/24
-* IP forwarding enabled in `/proc/sys/net/ipv4/ip_forward`
-* A firewall routing traffic from `bridge0` to a physical interface.
+-   A btrfs filesystem mounted under `/var/bocker`
+-   A network bridge called `bridge0` and an IP of 10.0.0.1/24
+-   IP forwarding enabled in `/proc/sys/net/ipv4/ip_forward`
+-   A firewall routing traffic from `bridge0` to a physical interface.
 
 For ease of use a Vagrantfile is included which will build the needed environment.
 
@@ -106,25 +107,25 @@ $ cat /sys/fs/cgroup/memory/ps_42188/memory.limit_in_bytes
 
 ## Functionality: Currently Implemented
 
-* `docker build` †
-* `docker pull`
-* `docker images`
-* `docker ps`
-* `docker run`
-* `docker exec`
-* `docker logs`
-* `docker commit`
-* `docker rm` / `docker rmi`
-* Networking
-* Quota Support / CGroups
+-   `docker build` †
+-   `docker pull`
+-   `docker images`
+-   `docker ps`
+-   `docker run`
+-   `docker exec`
+-   `docker logs`
+-   `docker commit`
+-   `docker rm` / `docker rmi`
+-   Networking
+-   Quota Support / CGroups
 
 † `bocker init` provides a very limited implementation of `docker build`
 
 ## Functionality: Not Yet Implemented
 
-* Data Volume Containers
-* Data Volumes
-* Port Forwarding
+-   Data Volume Containers
+-   Data Volumes
+-   Port Forwarding
 
 ## License
 
@@ -137,8 +138,8 @@ the Free Software Foundation, either version 3 of the License, or
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program. If not, see <http://www.gnu.org/licenses/>.
