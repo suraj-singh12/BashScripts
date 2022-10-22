@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #  location.sh
 #  
@@ -19,7 +19,6 @@ usage()
 }
 
 no_args="true"
-
 while getopts ":hmu:" option; do
     case $option in
         h) #display help
@@ -27,9 +26,9 @@ while getopts ":hmu:" option; do
             echo
             echo "Syntax: pathToScript [-m|u|h] [ip_address]"
             echo "options:"
-            echo "\tm     To get your location information"
-            echo "\tu     To get the location information of the ip address provided as an argument to this option"
-            echo "\th     Print this Help.";;
+            echo "  m     To get your location information"
+            echo "  u     To get the location information of the ip address provided as an argument to this option"
+            echo "  h     Print this Help.";;
         m) #display the information of user's ip address
             curl -s https://ipinfo.io;;
         u) # displaying the information of entered ip address with this option
