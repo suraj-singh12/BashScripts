@@ -1,5 +1,5 @@
 
-#!bin/bash
+#!/bin/bash
 echo "
 1.Hard disk information
 2.CPU information
