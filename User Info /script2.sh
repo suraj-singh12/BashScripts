@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "
 1.Number of users logged in
 2.List of all the users
