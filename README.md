@@ -40,4 +40,4 @@ The repo aims at having shell scripts that ease a normal user's life, or add enh
 - Commit and push
 - Create a pull request
 
-_for more info_, Kindly check the `CONTRIBUTING.md`.
+_for more info_, Kindly check the `CONTRIBUTING.md`
